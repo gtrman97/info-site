@@ -1,5 +1,13 @@
-ReactDOM.render(<ul>
-    <li>list element 1</li>
-    <li>list element 2</li>
-    <li>list element 3</li>
-</ul>, document.getElementById("root"));
+function MainContent(){
+    return (
+    <h1>
+        I'm learning React!
+    </h1>
+    )
+}
+
+
+ReactDOM.render(
+<div>
+<MainContent />
+</div>, document.getElementById("root"));
