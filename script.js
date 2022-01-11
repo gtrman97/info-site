@@ -1,1 +1,5 @@
-ReactDOM.render(<h1>Hello World!</h1>, document.getElementById("root"));
+ReactDOM.render(<ul>
+    <li>list element 1</li>
+    <li>list element 2</li>
+    <li>list element 3</li>
+</ul>, document.getElementById("root"));
