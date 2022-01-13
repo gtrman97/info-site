@@ -10,11 +10,18 @@ let Section = () => (
     <p>It is fun!</p>
 )
 
-ReactDOM.render(
-<div>
-<MainContent />
-<Section />
-</div>, document.getElementById("root"));
+const navbar = (
+    <nav>
+        <h1>Computer Detective</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+ReactDOM.render(navbar, document.getElementById("root"));
 
 // let root = document.getElementById("root"), h1 = document.createElement("h1");
 // h1.textContent("Imperative");
